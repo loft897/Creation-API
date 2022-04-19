@@ -1,0 +1,31 @@
+{
+  "name": "creation-api",
+  "version": "1.0.0",
+  "description": "Creation api avec node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "sass": "sass -w scss:public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loft897/Creation-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loft897/Creation-API/issues"
+  },
+  "homepage": "https://github.com/loft897/Creation-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.50.0"
+  }
+}
